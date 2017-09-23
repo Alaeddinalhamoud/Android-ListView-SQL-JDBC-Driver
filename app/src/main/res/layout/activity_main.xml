@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a_hamoud.listview_sqlserver.MainActivity">
+
+    <TextView
+    android:id="@+id/TV_Header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+    android:text="@string/TV_Header"
+     android:textColor="@color/colorPrimary"
+    android:textSize="15sp" />
+
+
+
+    <ListView
+    android:id="@+id/LV_Country"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+android:divider="@color/colorPrimary"
+
+        android:layout_below="@+id/TV_Header">
+</ListView>
+
+    <Button
+        android:id="@+id/btn_Get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="@string/btn_Get"
+
+        android:layout_below="@+id/LV_Country">
+
+    </Button>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/PB_Getting"/>
+</RelativeLayout>

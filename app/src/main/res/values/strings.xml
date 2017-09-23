@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListView-SQLServer</string>
+    <string name="TV_Header">COUNTRIES</string>
+    <string name="btn_Get">Get</string>
+</resources>
